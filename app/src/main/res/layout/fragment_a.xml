@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="16dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:context=".fragments.FragmentA">
+
+        <ImageButton
+            android:id="@+id/img_shared_image"
+            style="@style/MarginButton"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/ic_launcher_background"
+            android:transitionName="sharedImage" />
+
+        <Button
+            android:id="@+id/btn_replace_fragment_with_transition"
+            style="@style/MarginButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="REPLACE FRAGMENT WITH TRANSITION" />
+
+        <Button
+            android:id="@+id/btn_start_activity_fade_in"
+            style="@style/MarginButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="START ACTIVITY FADE IN" />
+
+        <Button
+            android:id="@+id/btn_start_activity_zoom_in"
+            style="@style/MarginButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="START ACTIVITY ZOOM IN" />
+
+        <Button
+            android:id="@+id/btn_start_activity_slide_in"
+            style="@style/MarginButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="START ACTIVITY SLIDE IN" />
+
+        <Button
+            android:id="@+id/btn_start_activity_slide_up"
+            style="@style/MarginButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="START ACTIVITY SLIDE UP" />
+
+        <Button
+            android:id="@+id/btn_replace_fragment_fade_in"
+            style="@style/MarginButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="REPLACE FRAGMENT FADE IN" />
+
+        <Button
+            android:id="@+id/btn_replace_fragment_zoom_in"
+            style="@style/MarginButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="REPLACE FRAGMENT ZOOM IN" />
+
+        <Button
+            android:id="@+id/btn_replace_fragment_slide_in"
+            style="@style/MarginButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="REPLACE FRAGMENT SLIDE IN" />
+
+        <Button
+            android:id="@+id/btn_replace_fragment_slide_up"
+            style="@style/MarginButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="REPLACE FRAGMENT SLIDE UP" />
+
+    </LinearLayout>
+</ScrollView>
